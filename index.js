@@ -3,8 +3,8 @@ const path = require("path");
 
 const client = new CommandoClient({
     commandPrefix: "-",
-    owner: "410082684677783562",
-    invite: "https://discord.gg/NPGaGJzZ"
+    owner: "your ID",
+    invite: "invitation link of your discord"
 });
 
 client.registry
@@ -15,7 +15,7 @@ client.registry
     .registerCommandsIn(path.join(__dirname, "commands"));
 
 client.once("ready", () => {
-    console.log(`bot operationnel chacal en tant que ${client.user.tag} - (${client.user.id})`);
+    console.log(`bot online as ${client.user.tag} - (${client.user.id})`);
 })
 
 client.on("error", (error) => console.error(error));

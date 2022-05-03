@@ -20,5 +20,5 @@ client.once("ready", () => {
 
 client.on("error", (error) => console.error(error));
 
-client.login("OTcwMjkzNDk1ODU0MTcwMTgy.Ym52PA.kMsRyJqM7FfrA6wyGTfzOvDRjNc");
+client.login("Token of your bot Here");
 
